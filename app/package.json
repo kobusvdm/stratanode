@@ -1,14 +1,28 @@
 {
-  "name": "stratanode",
+  "name": "stratanode-svc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Service for programming Stratasys cartidge EEPROM's over HTTP",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Kobus van der Merwe",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobusvdm/stratanode.git"
+  },
+  "keywords": [
+    "stratasys",
+    "3d",
+    "printer"
+  ],
+  "bugs": {
+    "url": "https://github.com/kobusvdm/stratanode/issues"
+  },
+  "homepage": "https://github.com/kobusvdm/stratanode#readme"
 }
