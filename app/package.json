@@ -1,14 +1,25 @@
 {
-  "name": "stratanode",
+  "name": "stratanode-svc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Service to reset / refill Stratasys cartridge EEPROM's over HTTP",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobusvdm/stratanode.git"
+  },
+  "keywords": [
+    "stratasys",
+    "nodejs",
+    "3D",
+    "printer"
+  ],
+  "author": "Kobus van der Merwe",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.0"
-  }
+  "bugs": {
+    "url": "https://github.com/kobusvdm/stratanode/issues"
+  },
+  "homepage": "https://github.com/kobusvdm/stratanode#readme"
 }
