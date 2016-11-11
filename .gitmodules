@@ -1,0 +1,3 @@
+[submodule "app/stratasys"]
+	path = app/stratasys
+	url = https://github.com/bvanheu/stratasys.git
